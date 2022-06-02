@@ -6,7 +6,7 @@ import java.io.IOException;
 public class CompilerMain {
     public static void main(String[] args) {
         try {
-            String myFile="/Users/OJ/Desktop/INSA/SoftwareHardware/Prosjekt/Compiler_Project/src/test_sourceCode.txt";
+            String myFile="/Users/OJ/Desktop/INSA/SoftwareHardware/Prosjekt/Compiler_Project/src/testFile2.txt";
 
             CharStream input = CharStreams.fromFileName(myFile);
             CompilerGrammarLexer lexer = new CompilerGrammarLexer(input);

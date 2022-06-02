@@ -1,0 +1,19 @@
+public static void main(String[] args){
+    int a_1, b_2, c_3 = 0;
+
+    a_1 = 10.5;
+    b_2 = 20;
+    c_3 = 15;
+
+    if ( a_1 < b_2){
+        System.out.println(c_3);
+    }
+    else {
+        System.out.println(b_2);
+    }
+
+    System.out.println(a_1);
+}
+
+
+

@@ -20,7 +20,6 @@ public class CustomListener extends CompilerGrammarBaseListener {
     //True as default because all operations must be able even if there is no if/while statement
     //I will put an if sentence to demand the variable to be true before any function can run
     public static Boolean IF_state = null;
-    public static boolean else_state = false;
 
     //Gathering the ASSEMBLY codes from the instructions
     public static ArrayList<String> assemblyCodes = new ArrayList<>();
@@ -542,7 +541,6 @@ public class CustomListener extends CompilerGrammarBaseListener {
     }
 
     //This is to assign a already declared variable to either a new value or an expression
-    //Also takes care is an if-sentence
     @Override
     public void exitEXPRESSIONS(CompilerGrammarParser.EXPRESSIONSContext ctx) {
         if (IF_state == null || IF_state)//If is true or null
@@ -1260,10 +1258,6 @@ public class CustomListener extends CompilerGrammarBaseListener {
         } else {
             //ASSEMBLY
             assemblyCodes.add("jmf8");
-        }
-
-        if (!state){
-            else_state = true;
         }
 
         return state;
