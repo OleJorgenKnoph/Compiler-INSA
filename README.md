@@ -2,7 +2,8 @@
 Design of a simple compiler for a simplified Java language using ANTLR v4.10.1. Part of a project during my semester abroad the spring of 2022 at [INSA Toulouse](https://www.insa-toulouse.fr/fr/index.html), France.
 
 ## Testing
-## Output of the two testfiles, including sourcecode and parse tree
+
+**Display of the testing of the two test-files attached. With the code, output and generated parsetree.**
 
 ### TestFile1.txt
 ```java
