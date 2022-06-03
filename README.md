@@ -2,7 +2,7 @@
 Design of a simple compiler for a simplified Java language using ANTLR v4.10.1. Part of a project during my semester abroad the spring of 2022 at [INSA Toulouse](https://www.insa-toulouse.fr/fr/index.html), France.
 
 ## Testing
-##Output of the two testfiles, including sourcecode and parse tree
+## Output of the two testfiles, including sourcecode and parse tree
 
 ### TestFile1.txt
 ```java
@@ -20,7 +20,9 @@ public static void main(String[] args){
  }
 ```
 #### Output
+
 Output alongside given assembly code
+
 <img width="581" alt="Skjermbilde 2022-06-03 kl  01 41 56" src="https://user-images.githubusercontent.com/70891970/171758803-30d022ce-0d77-4cc9-8c9d-88d0662dd639.png">
 
 #### ParseTree
@@ -49,6 +51,7 @@ public static void main(String[] args){
     System.out.println(a_1);
 }
 ```
+
 #### Output
 Output alongside given assembly code
 
@@ -57,9 +60,8 @@ Output alongside given assembly code
 <img width="481" alt="Skjermbilde 2022-06-03 kl  01 52 08" src="https://user-images.githubusercontent.com/70891970/171759028-5fa8135f-4eef-49e3-92de-eccdd9a04f0e.png">
 
 **Output 2 - Output when '<' is switched in code to ensure if/else works as supposed**
-`if ( a_1 < b_2) `
-> okey
-**Output 2 - Output when '<' is switched in code to ensure if/else works as supposed**
+
+`if ( a_1 > b_2) `
 
 <img width="434" alt="Skjermbilde 2022-06-03 kl  01 52 23" src="https://user-images.githubusercontent.com/70891970/171759160-4fcd3bfa-3a11-4938-8b88-e6c578dd7ecc.png">
 
